@@ -8,13 +8,13 @@
   },
   "content_scripts": [{
     "js": ["content.js"],
-    "matches": ["https://ilias.studium.kit.edu/*"],
+    "matches": ["https://comhard.iliasnet.de/*"],
     "run_at": "document_idle"
   }],
   "web_accessible_resources": [
   {
     "resources": ["script.js"],
-    "matches": ["https://ilias.studium.kit.edu/*"]
+    "matches": ["https://comhard.iliasnet.de/*"]
   }
   ],
   "manifest_version": 3
